@@ -22,5 +22,8 @@ If you do not want to do this by hand I would suggest to install [Anaconda] (htt
 
 ## Running 
 
-Once you have all the libraries you can just clone the repository and run the command `python LRate eta xi` where LRate is the value of the learning rate. 
+Once you have all the libraries you can just clone the repository and run the command `python toffoli.pub.py LRate eta xi` where:
+
+  - LRate: value of the steps of the learning rates. During the optimization they will decay as 1/sqrt(LRate)
+  - eta & xi define the initial state of the ancilla(s) cos(eta)|0> + exp(i*xi) sin(eta) |1>
 
