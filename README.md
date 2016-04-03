@@ -12,7 +12,7 @@ In priciple one can simulate any other three or two body gate as long as the net
 
 In order to run this code you only need:
 
-  - Python 
+  - Python2.7 
   - Numpy
   - Scipy (not really, but it doesn't hurt)
   - Qutip
