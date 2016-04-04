@@ -30,7 +30,7 @@ Once you have all the libraries you can just clone the repository and run the co
   - LRate: value of the steps of the learning rates. During the optimization they will decay as 1/sqrt(N*LRate) [for the N-th step] *
   - eta & xi define the initial state of the ancilla(s) cos(eta)|0> + exp(i*xi) sin(eta) |1>
 
-*Please note that the convergence heavily depends on the value of LRate. The order of magnitude for a four qubit network should be around ~0.001 +/- 0.01. 
+* Please note that the convergence heavily depends on the value of LRate. The order of magnitude for a four qubit network should be around ~0.001 +/- 0.01. 
 
 ## Contacts 
 
